@@ -37,3 +37,7 @@ html, body {
     color: white;
     z-index: 10;
 }
+
+.redBackground{
+    background-color: red;
+}
