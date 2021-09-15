@@ -14,6 +14,12 @@ html, body {
     display: block;
  }
 
+ #screenshotImg {
+    width: 100%;
+    height: 100%;
+    display: block;
+ }
+
  .threeCanvas {
      position: absolute;
     top: 0px;
