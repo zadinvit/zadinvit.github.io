@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'SF Mono';
+}
+
+#ThreeJSCameraControls {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+ 
+#ThreeJSCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+} 
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+.leftColumn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  background-color: lightslategray;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bottomRow {
+  position: absolute;
+  bottom: 20px;
+  align-self: center;
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  left: 0; /*NEW*/
+  right: 0; /*NEW*/
+}
+
+.bottomRight {
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+}
+
+.bottomLeft {
+  position: absolute;
+  left: 5px;
+  bottom: 20px;
+}
+
+#screenshot {
+  position: absolute;
+}
+
+#models {
+  position: absolute;
+  left: 40px;
+}
+
+#countTextfield{
+  position: absolute;
+  left: 120px
+}
+
+.threeJS{
+  width: 100%;
+  height: 100%;
+}
+
